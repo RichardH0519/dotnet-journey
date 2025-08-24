@@ -17,7 +17,7 @@
 
             Console.WriteLine(question1);
             string userAnswer1 = Console.ReadLine();
-            if (userAnswer1.Equals(answer1, StringComparison.OrdinalIgnoreCase))
+            if (userAnswer1.Trim().Equals(answer1, StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("Correct!");
                 score++;
@@ -29,7 +29,7 @@
 
             Console.WriteLine(question2);
             string userAnswer2 = Console.ReadLine();
-            if (userAnswer2.Equals(answer2, StringComparison.OrdinalIgnoreCase))
+            if (userAnswer2.Trim().Equals(answer2, StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("Correct!");
                 score++;
@@ -41,7 +41,7 @@
 
             Console.WriteLine(question3);
             string userAnswer3 = Console.ReadLine();
-            if (userAnswer3.Equals(answer3, StringComparison.OrdinalIgnoreCase))
+            if (userAnswer3.Trim().Equals(answer3, StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("Correct!");
                 score++;
